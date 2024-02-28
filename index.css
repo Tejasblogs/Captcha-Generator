@@ -1,0 +1,417 @@
+body {
+    background-color: #f0f0f0; /* Light gray background for highlighting */
+    color: #333333; /* Dark gray font color */
+}
+
+
+
+
+
+nav {
+    padding: 10px 20px;
+
+}
+
+.nav-container {
+    background-color: #333;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.logo img {
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border-color: #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; 
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.nav-container h3 {
+    margin-left: 20px;
+}
+
+
+
+#cap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    background-color: black;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.btn1 button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#inp {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid yellow;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ .All {
+    height: 300px;
+    width: 500px;
+    /* background-color: #f2f2f2;  */
+    background-color: #2c3e50; /* Dark blue-gray background */
+    color: #ffffff; /* White font color */
+    margin: 0 auto;
+    padding: 20px; 
+    text-align: center;
+    margin-top: 80px; 
+} 
+
+
+
+h1 {
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Add some space on top */
+    margin-bottom: 20px; /* Add some space on bottom */
+    padding: 10px; /* Add padding for better readability */
+    background-color: #ffffcc; /* Light Yellow background */
+    color: #333; /* Dark font color */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Apply bold font weight */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-links a {
+    display: inline-block;
+    
+    margin-right: 10px;
+    border: 2px solid transparent; /* Ensure border is transparent initially */
+    border-radius: 50%; /* Make it a circle */
+    transition: border-color 0.3s ease; /* Smooth transition for border color change */
+    padding: 5px; /* Adjust padding as needed */
+    border-color: #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; 
+}
+
+.social-links a:hover {
+    border-color: #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; /* Glowing box-shadow */
+}
+.social-links i {
+    color: #fff; /* Adjust color as needed */
+    font-size: 25px; /* Adjust font size as needed */
+   
+    
+}
+.social-links{
+    margin-left: 480px;
+}
+/* Style for button in nav bar */
+#getCodeBtn{
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 2px solid #007bff; /* Button border */
+    border-radius: 4px; /* Rounded border */
+    background: linear-gradient(135deg, #6dd96c 0%, #3aba4b 100%); /* Green gradient background */
+    color: #fff; /* Button text color */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transitions */
+    margin-right: 50px;
+}
+
+#getCodeBtn:hover {
+    background: linear-gradient(135deg, #4ac463 0%, #238d35 100%); /* Green gradient background on hover */
+    border-color: #0056b3; /* Button border color on hover */
+}
+.social-links a:hover {
+    border: 2px solid #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; /* Glowing box-shadow */
+    background: linear-gradient(135deg, #6bc4ff 0%, #147ec1 100%); /* Gradient background on hover */
+}
+
+.social-links a:hover {
+    border-color: #007bff; /* Change border color to blue on hover */
+    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 20px #007bff; /* Glowing box-shadow */
+}
+/* Media Query for Extra Small Devices (phones) */
+@media screen and (max-width: 576px) {
+    .nav-container {
+        padding: 10px;
+    }
+
+    .social-links {
+        margin-left: 0;
+    }
+
+    #cap {
+        margin-left: 0;
+    }
+}
+
+/* Media Query for Small Devices (tablets) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-links {
+        margin-left: 0;
+    }
+
+    #cap {
+        margin-left: 0;
+    }
+}
+
+/* Media Query for Medium Devices (small laptops) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    /* Add your styles for medium devices here */
+}
+
+/* Media Query for Large Devices (desktops) */
+@media screen and (min-width: 993px) {
+    /* Add your styles for large devices here */
+}
+/* Media Query for Medium Devices (small laptops) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        max-width: 70%;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .social-links {
+        margin-left: 20px;
+    }
+
+    #cap {
+        margin-left: 200px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input[type="text"] {
+        max-width: 250px;
+    }
+
+    button {
+        max-width: 250px;
+    }
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin-bottom: 10px;
+}
+
+
+
+/* Footer styling */
+footer {
+    background-color: #1e1e1e; /* Dark charcoal background */
+    color: #ffffff; /* White font color */
+    padding: 50px 0;
+    height: 120px;
+    width: 1200px;
+    /* Footer styling */
+
+/* Container for footer content */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling for headings */
+.footer-container h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+/* Styling for contact information */
+.contact-info p {
+    margin: 5px 0;
+    margin-left: 20px;
+}
+
+/* Styling for quick links */
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin-bottom: 10px;
+}
+
+/* Styling for about section */
+.about-section p {
+    margin: 0;
+}
+
+/* Styling for social media icons */
+.social-icons ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons ul li:last-child {
+    margin-right: 0;
+}
+
+.social-icons ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-icons ul li a:hover {
+    color: #ccc;
+}
+
+}
+
+/* Container for footer content */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling for headings */
+.footer-container h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Styling for contact information */
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Styling for quick links */
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin-bottom: 10px;
+}
+
+
+/* Styling for about section */
+.about-section p {
+    margin: 0;
+}
+
+/* Styling for social media icons */
+.social-icons ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons ul li:last-child {
+    margin-right: 0;
+}
+
+.social-icons ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-icons ul li a:hover {
+    color: #ccc;
+}
